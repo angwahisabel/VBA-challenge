@@ -1,47 +1,45 @@
 # VBA-challenge
 
-Module 2 Challenge
-Stock Summary VBA Script
+Stoch Analysis Project
 
 
 Overview
 
-This VBA script, is designed to analyze stock data in multiple worksheets within an Excel workbook. It calculates various metrics for each stock, including yearly change, percent change, and total volume. Additionally, it identifies the stocks with the greatest percent increase, greatest percent decrease, and greatest total volume.
+This project aims to analyze stock data across multiple worksheets within an Excel workbook. The provided script automates the process of generating a summary table containing summarized information such as yearly change, percent change, and total volume for each stock. It calculates various metrics for each stock and identifies stocks with the greatest percent increase, greatest percent decrease, and greatest total volume. By automating the analysis process, one can quickly gain insights into stock performance and identify trends without the need for manual calculations.
+
 
 
 Usage
 
-Open Excel Workbook: Open the Excel workbook containing the stock data.
-Open VBA Editor: Press Alt + F11 to open the Visual Basic for Applications (VBA) editor.
-Insert Module: Insert a new module by right-clicking on the project in the Project Explorer pane and selecting Insert > Module.
-Create a script that loops through all the stocks for one year and outputs the following information:
+Open the Excel workbook containing the stock data. Ensure that your stock data is organized in an Excel workbook with each worksheet representing a different year (2018,2019,2020). The data should be structured with specific columns:
+Column A: Ticker symbol
+Column C: Opening price
+Column F: Closing price
+Column G: Total volume
 
-The ticker symbol
-Yearly change from the opening price at the beginning of a given year to the closing price at the end of that year.
-The percentage change from the opening price at the beginning of a given year to the closing price at the end of that year.
-The total stock volume of the stock
-
-Run Script: Close the VBA editor and run the StockSummary subroutine either by pressing F5 or navigating to Run > Run Sub/UserForm.
+Open VBA Editor
+Insert a new module by right-clicking on the project in the Project Explorer pane and selecting Insert > Module.
+Run the provided VBA script named "StockSummary". The script will automatically loop through each worksheet, calculate summary statistics, apply conditional formatting, and output the results.
 
 
 
-Output
+Results
 
-The script adds a summary table to each worksheet with the following columns:
+Once the script has finished running, it adds a summary table to each worksheet with the following columns:
 Ticker
 Yearly Change
 Percent Change
 Total Volume
-Additionally, it identifies the stocks with the greatest percent increase, greatest percent decrease, and greatest total volume. These values are displayed in a separate table at the beginning of each worksheet, with the following columns:
+Additionally, it identifies the stocks with the greatest percent increase, greatest percent decrease, and greatest total volume. These values are displayed in a separate table on each worksheet, with the following columns:
 Ticker
-Value (either percent increase, percent decrease, or total volume)
+Value (Greatest percent increase, percent decrease, and total volume)
+
 
 
 Important Notes
 
-Ensure that the stock data is organized in each worksheet with columns for ticker, opening price, closing price, and volume.
 This script assumes that the data for each stock is contiguous and does not contain any blank rows within each dataset.
-Before running the script, make sure to save your Excel workbook in a macro-enabled format (.xlsm).
+
 
 
 References
