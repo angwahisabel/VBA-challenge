@@ -1,6 +1,6 @@
 # VBA-challenge
 
-Stoch Analysis Project
+Stock Analysis Project
 
 
 Overview
