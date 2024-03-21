@@ -11,7 +11,7 @@ This project aims to analyze stock data across multiple worksheets within an Exc
 
 Usage
 
-Open the Excel workbook containing the stock data. Ensure that your stock data is organized in an Excel workbook with each worksheet representing a different year (2018,2019,2020). The data should be structured with specific columns:
+Open the Excel workbook containing the stock data. Ensure that your stock data is organized in an Excel workbook with each worksheet representing a different year (2018, 2019, 2020). The data should be structured with specific columns:
 Column A: Ticker symbol,
 Column C: Opening price,
 Column F: Closing price,
