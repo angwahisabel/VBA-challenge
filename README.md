@@ -12,10 +12,10 @@ This project aims to analyze stock data across multiple worksheets within an Exc
 Usage
 
 Open the Excel workbook containing the stock data. Ensure that your stock data is organized in an Excel workbook with each worksheet representing a different year (2018,2019,2020). The data should be structured with specific columns:
-Column A: Ticker symbol
-Column C: Opening price
-Column F: Closing price
-Column G: Total volume
+Column A: Ticker symbol,
+Column C: Opening price,
+Column F: Closing price,
+Column G: Total volume.
 
 Open VBA Editor
 Insert a new module by right-clicking on the project in the Project Explorer pane and selecting Insert > Module.
@@ -26,13 +26,13 @@ Run the provided VBA script named "StockSummary". The script will automatically 
 Results
 
 Once the script has finished running, it adds a summary table to each worksheet with the following columns:
-Ticker
-Yearly Change
-Percent Change
-Total Volume
+Ticker,
+Yearly Change,
+Percent Change,
+Total Volume.
 Additionally, it identifies the stocks with the greatest percent increase, greatest percent decrease, and greatest total volume. These values are displayed in a separate table on each worksheet, with the following columns:
-Ticker
-Value (Greatest percent increase, percent decrease, and total volume)
+Ticker,
+Value (Greatest percent increase, percent decrease, and total volume).
 
 
 
