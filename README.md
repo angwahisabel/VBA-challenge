@@ -30,6 +30,7 @@ Ticker,
 Yearly Change,
 Percent Change,
 Total Volume.
+It highlights stocks with a positive yearly change in green and stocks with a negative yearly change in red.
 Additionally, it identifies the stocks with the greatest percent increase, greatest percent decrease, and greatest total volume. These values are displayed in a separate table on each worksheet, with the following columns:
 Ticker,
 Value (Greatest percent increase, percent decrease, and total volume).
